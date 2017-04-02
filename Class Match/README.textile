@@ -1,0 +1,5 @@
+Vet School Class Match is an application using Ruby on Rails that makes it easier for pre-vet students to see what other classes they need to fulfill the prerequisites of vet schools in the US.
+
+Using the Devise gem to create the user system, Vet School Class Match automatically orders veterinary schools by how many more units the user needs to take to fulfill the prerequisites.
+
+The user can also see a list of potential schools and what classes they require in alphabetical order in the Schools tab.

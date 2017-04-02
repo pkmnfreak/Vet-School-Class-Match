@@ -1,0 +1,8 @@
+<h3>Schools, and what they require</h3>
+<% @schools.each do |a| %>
+  <h1> <%= a.name %> </h1>
+  <h5>Classes: Units</h5>
+  <% a.classes.each do |key, value| %>
+    <%= "#{key}: #{value}" %> <br />
+  <% end %>
+<% end %>
