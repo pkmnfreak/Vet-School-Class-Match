@@ -1,7 +1,0 @@
-<h1> Edit Your Classes </h1>
-
-<%= form_for @user, :url => update_path  do |f| %>
-  <%= f.collection_select :class_selected, User::CLASSES, :to_s, :to_s %>
-  <%= f.collection_select :units, User::UNITS, :to_s, :to_s %>
-  <%= f.button :submit %>
-<% end %>
