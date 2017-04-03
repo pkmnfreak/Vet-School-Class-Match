@@ -1,6 +1,6 @@
 # Vet-School-Class-Match
 
-![test](https://github.com/pkmnfreak/Vet-School-Class-Match/blob/master/Class-Match.gif | width=48)
+![](https://github.com/pkmnfreak/Vet-School-Class-Match/blob/master/Class-Match.gif)
 ![](/Class-Match-Schools.gif)
 
 An application where users can input classes they've taken and the system will order a list of vet schools based on how close they are to meeting all of the prerequisites
