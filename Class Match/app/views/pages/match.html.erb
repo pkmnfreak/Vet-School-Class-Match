@@ -1,4 +1,7 @@
 <h3>List of schools and how many more units you need to take to complete the prerequisites</h3>
+<h6>Note: Some schools may consider certain classes as fulfillment for another class. <br />
+    For example, schools that are not specifically looking for Psychology would consider<br />
+    that class as a humanity or an elective. </h6>
 <% @schools = School.all %>
 
 <% @schools.each do |a| %>
@@ -22,7 +25,7 @@
 <% @schools = @schools.sort_by(&:priority) %>
 <% @schools.each do |b| %>
   <h1> <%= b.name %> </h1>
-  <h5>Classes: Units</h5>
+  <h3>Classes: Units</h3>
   <% b.classes.each do |key, value| %>
     <% if current_user.classes[key] %>
       <% other = current_user.classes[key] %>
@@ -33,6 +36,6 @@
     <% if difference < 0 %>
       <% difference = 0 %>
     <% end %>
-    <%= "#{key}: #{difference}" %> <br />
+    <h5> <%= "#{key}: #{difference}" %> <br /> </h5>
   <% end %>
 <% end %>
