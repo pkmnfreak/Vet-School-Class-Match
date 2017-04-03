@@ -2,7 +2,7 @@
 
 <img src="https://github.com/pkmnfreak/Vet-School-Class-Match/blob/master/Class-Match.gif" width="400"> <img src="https://github.com/pkmnfreak/Vet-School-Class-Match/blob/master/Class-Match-Schools.gif" width="400">
 
-An application where users can input classes they've taken and the system will order a list of vet schools based on how close they are to meeting all of the prerequisites
+An application using Ruby on Rails where users can input classes they've taken and the system will order a list of vet schools based on how close they are to meeting all of the prerequisites
 
 Using the Devise gem to create the user system, Vet School Class Match automatically orders veterinary schools by how many more units the user needs to take to fulfill the prerequisites.
 
